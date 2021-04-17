@@ -2,6 +2,8 @@
 #avviato terminale>tasto destro>proprietà>tipi di carattere
 import pyperclip
 
+akjbkjabjdksbfjashfbliahsbfdsjlahf 
+
 my_list=["kesium", "250MG 8CPR APP.",104319076,
          "kesium", "250MG 96CPR APP.",104319088,
          "kesium", "62,5MG 10 CPR APP.",104319013,
