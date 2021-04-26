@@ -98,10 +98,20 @@ while not done:
     print("Il tuo codice è stato copiato negli appunti")             
 
     print(" ")
-    nuovo = input("Desideri ricercare un altro farmaco? (s/n) ")
-    if nuovo.lower() == "n" :
-        print ("Buona lavoro!")
-        done = True        
+    again = True
+    
+    while again == True:
+        nuovo = input("Desideri ricercare un altro farmaco? (s/n) ")
+        if nuovo.lower() == "n" :
+            done = True
+            again = False
+        elif nuovo.lower() == "s":
+            done = False
+            again = False
+        else:
+            print ("Risposta non valida, perfavore riprovare")
+            again = True
+                
         
 
 exit()
