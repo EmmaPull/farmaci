@@ -100,7 +100,6 @@ while not done:
     print(" ")
     nuovo = input("Desideri ricercare un altro farmaco? (s/n) ")
     if nuovo.lower() == "n" :
-        print ("Buona lavoro!")
         done = True        
         
 
